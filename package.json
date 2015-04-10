@@ -1,0 +1,15 @@
+{
+  "name": "actionList-db",
+  "description": "Action List Database",
+  "version": "0.0.1",
+  "author": "David Shaevel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dshaevel/actionList-db.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dshaevel/actionList-db/issues"
+  },
+  "homepage": "https://github.com/dshaevel/actionList-db"
+}
