@@ -5,7 +5,9 @@
 
 #Description
 
-Set up the Action List database and manage database migrations.
+Set up the Action List database and manage database migrations using Knex.js.
+
+- [Knex.js](http://knexjs.org)
 
 ---
 
