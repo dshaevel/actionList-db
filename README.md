@@ -14,3 +14,11 @@ Set up the Action List database and manage database migrations.
 Install the dependencies
 
     npm install
+
+Run the database migration
+
+    knex migrate:latest
+
+Seed the database with test data
+
+    knex seed:run
