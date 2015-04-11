@@ -17,6 +17,10 @@ Install the dependencies
 
     npm install
 
+Install knex globally
+
+    npm install knex -g
+
 Run the database migration
 
     knex migrate:latest
