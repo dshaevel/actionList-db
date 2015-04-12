@@ -15,7 +15,7 @@ Set up the Action List database and manage database migrations using Knex.js.
 
 Install local PostgreSQL server
 
-    [Postgres.app](http://postgresapp.com)
+- [Postgres.app](http://postgresapp.com)
 
 Install the dependencies
 
