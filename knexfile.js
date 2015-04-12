@@ -6,9 +6,9 @@ module.exports = {
     client: 'postgresql',
     connection: {
       host:     '127.0.0.1',
-      database: 'dshaevel',
-      user:     'dshaevel',
-      password: ''
+      database: '', /* Enter local database name here */
+      user:     '', /* Enter local db user here */
+      password: ''  /* Enter local db password here */
     },
     pool: {
       min: 1,
@@ -20,15 +20,15 @@ module.exports = {
     migrations: {
       tableName: 'knex_migrations'
     }
-  }
+  },
 
-  /*
   staging: {
     client: 'postgresql',
     connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
+      host:     '', /* Enter remote staging database host here */
+      database: '', /* Enter remote staging database name here */
+      user:     '', /* Enter remote staging db user here */
+      password: ''  /* Enter remote staging db password here */
     },
     pool: {
       min: 2,
@@ -41,27 +41,5 @@ module.exports = {
       tableName: 'knex_migrations'
     }
   }
-  */
-
-  /*
-  production: {
-    client: 'postgresql',
-    connection: {
-      database: 'my_db',
-      user:     'username',
-      password: 'password'
-    },
-    pool: {
-      min: 2,
-      max: 10
-    },
-    seeds: {
-      directory: './seeds/production'
-    },
-    migrations: {
-      tableName: 'knex_migrations'
-    }
-  }
-  */
 
 };
